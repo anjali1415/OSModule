@@ -14,10 +14,12 @@ cal => show calendar
 cal jan 2020
 
 1.3.
-bc => is basic calculator in linux. after typing this command one can do basic calculator operations
+bc => is basic calculator in linux. after typing this command one can do basic
+ calculator operations
 
 1.4.
-echo => echo command in linux is used to display line of text/string that are passed as an argument .
+echo => echo command in linux is used to display line of text/string that are passed as an
+ argument .
 1. \b  : it removes all the spaces in between the text
 2. \c : suppress trailing new line with backspace interpreter
 3. \n : this option creates new line from where it is used.
@@ -35,7 +37,8 @@ who =>  The who command is used to get information about currently logged in use
 
 1.7. logname => print user´s login name,Print the name of the current user
 
-1.8. uname => uname is a command-line utility that prints basic information about the operating system name and system hardware
+1.8. uname => uname is a command-line utility that prints basic information about the 
+operating system name and system hardware
 
 -s, (--kernel-name) - Prints the kernel name.
 -n, (--nodename) - Prints the system’s node name (hostname). This is the name the system uses when communicating over the network. When used with the -n option, uname produces the same output as the hostname command.
@@ -79,7 +82,7 @@ B)
  mv b c
 
 
-c) alias bhargav="ls -lh"
+c) alias anjali="ls -lh"
 
 d) mv a cdac
 
@@ -87,7 +90,7 @@ d) mv a cdac
 3)
 A)
 touch file1.txt file2.txt file3.txt file4.txt file5.txt
-echo 'Bhargav'>> file1.txt file2.txt file3.txt file4.txt file5.txt  
+echo 'anjali'>> file1.txt file2.txt file3.txt file4.txt file5.txt  
 b)cat file1.txt file2.txt file3.txt file4.txt file5.txt
 c)touch file1.txt file2.txt file3.txt file4.txt file5.txt
 d) rm -r c cdac a
@@ -117,16 +120,16 @@ g)ls -ld
 
 ##################################################################
 
-1)mkdir Bhargav 
+1)mkdir anjali 
 touch a.txt b.txt c.txt dtxt
-chmod u-rwx Bhargav
+chmod u-rwx anjali
 a)chmod u+rw- bar
 b)chmod +r--
 c) chmod +x
 
-2)chmod +x Bhargav
-3)chmod -wx Bhargav	
-4)echo * Bhargav	
+2)chmod +x anjali
+3)chmod -wx anjali	
+4)echo * anjali
 5)echo * /etc/
 6)find /etc -type f -name "*.conf"
 7)echo 'helloo' >> a.txt
